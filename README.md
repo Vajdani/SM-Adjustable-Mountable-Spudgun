@@ -12,24 +12,24 @@ I also made a handheld version! **Press 'R' to open the tuning menu!** Sadly, **
 
 
 # ADJUSTABLE SETTINGS
--Projectile type
--Projectile damage
--Projectile velocity
--How many times the projectile gets shot
--Spread(unique to each projectile if more than one gets shot)
--Reload time(ticks)
--Whether it shoots continuously or not
+- Projectile type
+- Projectile damage
+- Projectile velocity
+- How many times the projectile gets shot
+- Spread(unique to each projectile if more than one gets shot)
+- Reload time(ticks)
+- Whether it shoots continuously or not
 
 
 # PROJECTILE TYPES
--Potato
--Small Potato(gatling gun projectiles)
--Fries
--Tape
--Explosive Tape
--Water
--Pesticide
--Glowstick
+- Potato
+- Small Potato(gatling gun projectiles)
+- Fries
+- Tape
+- Explosive Tape
+- Water
+- Pesticide
+- Glowstick
 
 # Media
 [![embed_1](https://img.youtube.com/vi/95dLyPNik2E/0.jpg)](https://www.youtube.com/watch?v=95dLyPNik2E)\
