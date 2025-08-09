@@ -1,0 +1,26 @@
+{
+   "toolList" : [
+      {
+         "name" : "Adjustable Handheld Spudgun",
+         "previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "Handheld",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/Handheld_AdjustableGun.lua"
+         },
+         "uuid" : "5bb009d9-c558-4c12-8a93-60d20808037b"
+      },
+      {
+         "name" : "Adjustable Handheld Shotgun",
+         "previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "HandheldSh",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/Handheld_AdjustableShotgun.lua"
+         },
+         "uuid" : "d198d1c7-2440-4054-9ed4-42ae44160db7"
+      }
+   ]
+}

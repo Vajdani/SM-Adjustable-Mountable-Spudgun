@@ -1,0 +1,74 @@
+{
+   "partList" : [
+      {
+         "color" : "df7f01",
+         "hull" : {
+            "col" : "$GAME_DATA/Objects/Collision/obj_interactive_mountablespudgun_col.obj",
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "name" : "adjustable_spudgun",
+         "physicsMaterial" : "Mechanical",
+         "ratings" : {
+            "density" : 5,
+            "durability" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_off.fbx",
+                  "minViewSize" : 30,
+                  "pose0" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_on.fbx",
+                  "subMeshMap" : {
+                     "barrel_basic" : {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_d9e6682a-1885-44b2-9cda-11bf5fec9dac/Objects/Textures/char_spudgun_barrel_basic_dif.tga",
+                           "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+                           "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_nor.tga"
+                        ]
+                     },
+                     "mounted_spudgun" : {
+                        "material" : "PoseAnimDifAsgNor",
+                        "textureList" : [
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+                        ]
+                     }
+                  }
+               },
+               {
+                  "mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_lod1.fbx",
+                  "subMeshMap" : {
+                     "barrel_basic" : {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_dif.tga",
+                           "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+                           ""
+                        ]
+                     },
+                     "mounted_spudgun" : {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+                           ""
+                        ]
+                     }
+                  }
+               }
+            ]
+         },
+         "rotationSet" : "PropYZ",
+         "scripted" : {
+            "classname" : "AdjustableGun",
+            "filename" : "$MOD_DATA/Scripts/AdjustableGun.lua"
+         },
+         "sticky" : "-Z-Y+Y-X+X",
+         "uuid" : "be0ae915-0d23-4bfa-ab1f-2fcda51180fd"
+      }
+   ]
+}

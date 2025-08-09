@@ -1,0 +1,10 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "[h1] NORMAL VERSION [/h1]\r\nThis mod adds a spudgun that you can adjust in various ways.\r\n[b]Just interact with the gun and begin tuning it however you'd like[/b]!\r\n\r\nYou can also create templates out of the guns! [b]Just press U on the gun you want to make a template of, press E on another gun and click the template button[/b]! You can also switch templates by connecting another logic input. It will inherit the template gun's stats and everything! You can have multiple templates.\r\n\r\n\r\n[h1] HANDHELD VERSION [/h1]\r\nI also made a handheld version! [b]Press 'R' to open the tuning menu![/b] Sadly, [b]you can't make templates of it, but you can use templates created by normal adjustable guns![/b]\r\n\r\n\r\n[h1] ADJUSTABLE SETTINGS [/h1]\r\n-Projectile type\r\n-Projectile damage\r\n-Projectile velocity\r\n-How many times the projectile gets shot\r\n-Spread(unique to each projectile if more than one gets shot)\r\n-Reload time(ticks)\r\n-Whether it shoots continuously or not\r\n\r\n\r\n[h1] PROJECTILE TYPES [/h1]\r\n-Potato\r\n-Small Potato(gatling gun projectiles)\r\n-Fries\r\n-Tape\r\n-Explosive Tape\r\n-Water\r\n-Pesticide\r\n-Glowstick\r\n\r\n",
+   "fileId" : 2754754406.0,
+   "localId" : "d9e6682a-1885-44b2-9cda-11bf5fec9dac",
+   "name" : "Adjustable Spudguns",
+   "type" : "Blocks and Parts",
+   "version" : 0.0
+}

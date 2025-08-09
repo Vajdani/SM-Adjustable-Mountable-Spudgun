@@ -1,0 +1,15 @@
+{
+	"be0ae915-0d23-4bfa-ab1f-2fcda51180fd":
+	{
+		"title": "Adjustable Mountable Spudgun",
+		"description": "A Mountable Spudgun that you can adjust to your liking."
+	},
+	"5bb009d9-c558-4c12-8a93-60d20808037b": {
+		"description": "Handheld version of the adjustable mountable spudgun. Press 'R' to open the tuning menu!",
+		"title": "Handheld Adjustable Spudgun"
+	},
+	"d198d1c7-2440-4054-9ed4-42ae44160db7": {
+		"description": "Shotgun version of the Handheld Adjustable Spudgun. Each barrel is separately tunable!",
+		"title": "Adjustable Handheld Shotgun"
+	}
+}

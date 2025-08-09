@@ -1,0 +1,22 @@
+{
+	"lodList": [
+		{
+			"mesh": "$CONTENT_d9e6682a-1885-44b2-9cda-11bf5fec9dac/Objects/Mesh/spudgun_highlight.fbx",
+			"includes" : [ "POSITION", "UV0", "NORMAL" ],
+			"subMeshMap": {
+				"mounted_spudgun": {
+                    "textureList": [
+                      	"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga"
+                    ],
+                    "material": "Hologram"
+                },
+                "barrel_basic": {
+                    "textureList": [
+                        "$CONTENT_d9e6682a-1885-44b2-9cda-11bf5fec9dac/Objects/Textures/char_spudgun_barrel_basic_dif.tga"
+                    ],
+                    "material": "Hologram"
+                }
+			}
+		}
+	]
+}
